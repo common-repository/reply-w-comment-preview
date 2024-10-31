@@ -1,0 +1,52 @@
+.atr_reply
+{
+	cursor:pointer;
+}
+
+.atr_reply:hover
+{
+	text-decoration:underline;
+}
+
+.atr_reply img.atr_reply_img
+{
+	position:static;
+	border:0;
+}
+
+a.atr_link
+{
+	padding:0px 2px 2px;
+}
+
+a.atr_link:hover
+{
+    background:#222;
+    color:#eee;
+}
+
+div#atr_tt {
+	color:#222;
+	background:#eee;
+	position:absolute;
+	max-width:400px;
+	border:2px solid #555;
+	font-size:0.9em;
+	margin:0;
+	max-height:150px;
+	overflow:hidden;
+	padding:0 10px;
+	z-index:9999;
+}
+
+div#atr_tt .edit-comment-admin-links,
+div#atr_tt .atr_reply
+{
+    display:none;
+    width:0;
+    height:0;
+    padding:0;
+    margin:0;
+    position:absolute;
+    border:0;
+}

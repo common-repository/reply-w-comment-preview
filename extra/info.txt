@@ -1,0 +1,4 @@
+The `reply.png` file in this folder is for dark background themes.
+
+You can replace the default files with them if you need to. 
+
